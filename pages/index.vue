@@ -5,16 +5,13 @@ console.log(colorMode.preference)
 </script>
 
 <template>
-
-  <div class=" flex justify-center ">
-    <div>
-      <h1 class="dark:text-white">Color mode: {{ $colorMode.value }}</h1>
-      <select v-model="$colorMode.preference" class="p-3 border rounded-xl">
-        <option value="system">System</option>
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-      </select>
-    </div>
+  <div class="dark:bg-gray-900">
+    <div class="dark:text-white wrapper justify-center items-center flex ">
+    <Header />
+  </div>
+  <div class="dark:text-white wrapper justify-center flex ">
+    <Projects />
+  </div>
   </div>
 </template>
 

@@ -27,6 +27,6 @@
 
 <style scoped>
 .nav-link {
-    @apply mx-2 font-medium items-center justify-center m-auto text-gray-700 dark:hover:text-primary text-gray-200 data-[active-true]:border-b-2 transition-colors duration-300 transform;
+    @apply ml-3 font-medium items-center justify-center m-auto text-gray-700 dark:hover:text-primary dark:text-gray-200 data-[active-true]:border-b-2 transition-colors duration-300 transform;
 }
 </style>

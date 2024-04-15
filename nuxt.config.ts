@@ -7,5 +7,8 @@ export default defineNuxtConfig({
     ],
     colorMode: {
         classSuffix: ''
-      }
+      },
+      build: {
+        transpile: ['gsap'],
+      },
 })

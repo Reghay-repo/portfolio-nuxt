@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dark:text-white">
     about
   </div>
 </template>
@@ -8,6 +8,4 @@
 
 </script>
 
-<style>
-
-</style>
+<style></style>
