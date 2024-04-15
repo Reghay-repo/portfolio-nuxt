@@ -4,7 +4,7 @@
     <div class="dark:bg-gray-900">
       <Navbar />
     </div>
-    <div class="dark:bg-gray-900">
+    <div class=" dark:bg-gray-900">
       <NuxtPage />
     </div>
 
