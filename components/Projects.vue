@@ -19,7 +19,14 @@ const projects: IProject[] = [
   //   link: "https://risk-management-68pu.onrender.com/auth/login",
   // },
 
-
+  {
+    name: "Planfy",
+    description: "I developed the frontend of the ERP SaaS tool, Planfy, using Vue.js, Vuetify, and Pinia.My responsibilities included UI design, responsive layouts, and performance optimization.I deployed the application to AWS, ensuring scalability and reliability with proper infrastructure and deployment pipelines.",
+    image: "/planfy.png",
+    github: "#",
+    tags: ['Vue.js', 'Django', 'Vuetify', 'Python', 'PostgresSql', 'Javascript', 'Node.js'],
+    link: "https://www.planfy.nl/",
+  },
   {
     name: "Petalens",
     description:
