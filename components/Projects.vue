@@ -9,15 +9,15 @@ interface IProject {
 }
 
 const projects: IProject[] = [
-  // {
-  //   name: "Risk management & performance Applicaiton ",
-  //   description:
-  //       "A user-friendly platform that simplifies risk management and performance tracking. it's intuitive and powerful. Identify risks, track performance,    and stay informed with alerts and notifications",
-  //   image: "/risk.png",
-  //   tags: ['PostgreSQL', 'Vue.js', 'Nest.js', 'Vuetify'],
-  //   github: "https://github.com/Reghay-repo/oussama-portfolio",
-  //   link: "https://risk-management-68pu.onrender.com/auth/login",
-  // },
+  {
+    name: "Risk management & performance Applicaiton ",
+    description:
+      "A user-friendly platform that simplifies risk management and performance tracking. it's intuitive and powerful. Identify risks, track performance,    and stay informed with alerts and notifications",
+    image: "/risk.png",
+    tags: ['PostgreSQL', 'Vue.js', 'Nest.js', 'Vuetify'],
+    github: "https://github.com/Reghay-repo/oussama-portfolio",
+    link: "https://risk-management-68pu.onrender.com/auth/login",
+  },
 
   {
     name: "Planfy",
