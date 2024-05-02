@@ -10,6 +10,15 @@ interface IProject {
 
 const projects: IProject[] = [
   {
+    name: "Success Line - Landing page",
+    description:
+      "A landing page for a Digitale agency for marketing and developing IT Solutions",
+    image: "/success.png",
+    tags: ['Vue.js', 'Nuxt.js', 'Tailwindcss', 'DaisyUI'],
+    github: "https://github.com/Reghay-repo/",
+    link: "https://risk-management-68pu.onrender.com/auth/login",
+  },
+  {
     name: "Risk management & performance Applicaiton ",
     description:
       "A user-friendly platform that simplifies risk management and performance tracking. it's intuitive and powerful. Identify risks, track performance,    and stay informed with alerts and notifications",
