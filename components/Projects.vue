@@ -12,14 +12,14 @@ const projects: IProject[] = [
   {
     name: "Success Line - Landing page",
     description:
-      "A landing page for a Digitale agency for marketing and developing IT Solutions",
+      "A landing page for a Digitale agency for marketing and developing IT Solutions ,this landing page was built with Nuxt for  better SEO optimisation and using tailwind for a clean and nice looking Ui ",
     image: "/success.png",
     tags: ['Vue.js', 'Nuxt.js', 'Tailwindcss', 'DaisyUI'],
     github: "https://github.com/Reghay-repo/",
     link: "https://risk-management-68pu.onrender.com/auth/login",
   },
   {
-    name: "Risk management & performance Applicaiton ",
+    name: "Governance, Risk and Compliance Tool",
     description:
       "A user-friendly platform that simplifies risk management and performance tracking. it's intuitive and powerful. Identify risks, track performance,    and stay informed with alerts and notifications",
     image: "/risk.png",
@@ -30,8 +30,8 @@ const projects: IProject[] = [
 
   {
     name: "Planfy",
-    description: "I developed the frontend of the ERP SaaS tool, Planfy, using Vue.js, Vuetify, and Pinia.My responsibilities included UI design, responsive layouts, and performance optimization.I deployed the application to AWS",
-    image: "/planfy.png",
+    description: "I developed the front end of the ERP SaaS tool, handling UI design, responsive layouts, and performance optimization.",
+    image: "/planfy2.png",
     github: "#",
     tags: ['Vue.js', 'Django', 'Vuetify', 'Python', 'PostgresSql', 'Javascript', 'Node.js'],
     link: "https://www.planfy.nl/",
@@ -45,7 +45,6 @@ const projects: IProject[] = [
     tags: ['Docker', 'Vue.js', 'Nest.js', 'Vuetify', 'Laravel', 'PostgresSql',],
     link: "https://www.petalens.com/",
   },
-
   {
     name: "Easyom",
     description:
@@ -87,9 +86,10 @@ const projects: IProject[] = [
       </div>
       <div class="grid lg:grid-cols-3 md:grid-cols-2 w-full  justify-center  mt-5">
         <div
-          class="card  m-3 max-w-sm  hover:border  hover:shadow-xl rounded-2xl  transition-shadow dark:shadow-amber-100 hover:cursor-pointer justify-center "
+          class="card border  m-3 pb-4 h-auto  hover:border  hover:shadow-xl rounded-2xl  transition-shadow dark:shadow-amber-100 hover:cursor-pointer justify-center "
           v-for="project in projects">
-          <img :src="`/imgs/${project.image}`" :alt="project.name" class="rounded-xl m-auto  my-4 mb-2" width="340px">
+          <img :src="`/imgs/${project.image}`" :alt="project.name" class="rounded-xl m-auto   my-4 mb-2" height="500px"
+            width="340px" >
           <div class=" pt-4 justify-center flex-wrap  flex pb-2">
             <span v-for="tag in project.tags"
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{{
@@ -97,7 +97,7 @@ const projects: IProject[] = [
               }}</span>
 
           </div>
-          <div class="px-6 py-4">
+          <div class="px-6 ">
             <h1 class="font-bold text-2xl mb-2">{{ project.name }}</h1>
             <p class="dark:text-gray text-lg">{{ project.description }}</p>
 
