@@ -13,7 +13,7 @@ const projects: IProject[] = [
     name: "Success Line - Landing page",
     description:
       "A landing page for a Digitale agency for marketing and developing IT Solutions ,this landing page was built with Nuxt for  better SEO optimisation and using tailwind for a clean and nice looking Ui ",
-    image: "/success.png",
+    image: "/successline.png",
     tags: ['Vue.js', 'Nuxt.js', 'Tailwindcss', 'DaisyUI'],
     github: "https://github.com/Reghay-repo/",
     link: "https://risk-management-68pu.onrender.com/auth/login",
