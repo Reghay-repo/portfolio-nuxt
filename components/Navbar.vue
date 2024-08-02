@@ -13,6 +13,7 @@
                 <div class="flex flex-row">
 <!--                    <nuxt-link class="nav-link  " data-[active=true] to="/blogs">Blog</nuxt-link>-->
                     <nuxt-link class="nav-link" to="/about">About</nuxt-link>
+                    <nuxt-link class="nav-link" to="/bookmarks">bookmarks</nuxt-link>
                     <ColorSwitcher />
                 </div>
             </div>
