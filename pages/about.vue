@@ -41,12 +41,12 @@
       <div class="text-xl mb-3">
         Feel free to:
         <br>
-        - DM me  ⚡ <a href="https://twitter.com/OReghay">Twitter</a>
+        - DM me  ⚡ <a href="https://twitter.com/OReghay" target="_blank">Twitter</a>
         <br>
-        - DM me  ⚡ <a href="https://www.linkedin.com/in/oussama-reghay">LinkedIn</a>
+        - DM me  ⚡ <a href="https://www.linkedin.com/in/oussama-reghay" target="_blank">LinkedIn</a>
         <br>
         - 📧 me at
-        <a href="mailto:oussama.reghay.dev@gmail.com" class="underline text-amber-50">
+        <a href="mailto:oussama.reghay.dev@gmail.com"  class="underline text-amber-50">
           oussama.reghay.dev@gmail.com
         </a>
       </div>

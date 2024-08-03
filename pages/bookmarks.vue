@@ -26,7 +26,7 @@ import PageHeader from '~/components/PageHeader.vue';
 const description =
     "Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com";
 useSeoMeta({
-    title: "Bookmarks | Fayaz Ahmed",
+    title: "Bookmarks | Oussama reghay",
     description,
 });
 
@@ -105,6 +105,16 @@ const bookmarks = [
         id: 15,
         label: "Rakko Tools",
         url: "https://en.rakko.tools/",
+    },
+    {
+        id: 16,
+        label: "Quasar framework for building cross platform apps with Vue js",
+        url: "https://quasar.dev/",
+    },
+    {
+        id: 17,
+        label: "VueUse - Collection of Vue Composition Utilities",
+        url: "https://vueuse.org/",
     },
 ];
 
